@@ -42,9 +42,20 @@ async function updateSession(request) {
             }
         }
     });
-    // Do not run Supabase middleware to force sign-in on public routes
-    // But we do need to refresh the session
-    await supabase.auth.getUser();
+    // Check if user is authenticated
+    const { data: { user } } = await supabase.auth.getUser();
+    // If not authenticated and not already on login page, redirect to login
+    if (!user && !request.nextUrl.pathname.startsWith('/login') && !request.nextUrl.pathname.startsWith('/auth')) {
+        const url = request.nextUrl.clone();
+        url.pathname = '/login';
+        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].redirect(url);
+    }
+    // If authenticated and on login page, redirect to dashboard
+    if (user && request.nextUrl.pathname === '/login') {
+        const url = request.nextUrl.clone();
+        url.pathname = '/';
+        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].redirect(url);
+    }
     return supabaseResponse;
 }
 }),
@@ -70,7 +81,7 @@ const config = {
      * - _next/image (image optimization files)
      * - favicon.ico (favicon file)
      * Feel free to modify this pattern to include more paths.
-     */ '/((?!(?:_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)'
+     */ '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)'
     ]
 };
 }),

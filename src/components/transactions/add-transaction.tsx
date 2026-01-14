@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react"
-import { v4 as uuidv4 } from "uuid"
 import { useTransactionStore } from "@/store/useTransactionStore"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -35,17 +34,16 @@ export function AddTransaction() {
   const [type, setType] = useState<TransactionType>("expense")
   const [category, setCategory] = useState<Category>("Food")
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!amount || !description) return
 
-    addTransaction({
-      id: uuidv4(),
+    await addTransaction({
       amount: parseFloat(amount),
       description,
       type,
       category,
-      date: new Date().toISOString(),
+      date: new Date().toISOString().split('T')[0], // Use YYYY-MM-DD format for date
     })
 
     // Reset form
@@ -53,7 +51,7 @@ export function AddTransaction() {
     setDescription("")
     setType("expense")
     setCategory("Food")
-    setOpen(false)
+    setOpen(false) // Close the sheet after successful save
   }
 
   return (
@@ -142,12 +140,11 @@ export function AddTransaction() {
             </Select>
           </div>
           <SheetFooter>
-            <SheetClose asChild>
-              <Button type="submit">Save changes</Button>
-            </SheetClose>
+            <Button type="submit">Save changes</Button>
           </SheetFooter>
         </form>
       </SheetContent>
     </Sheet>
   )
 }
+

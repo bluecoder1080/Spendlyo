@@ -1,8 +1,20 @@
+"use client"
+
+import dynamic from "next/dynamic"
 import { Overview } from "@/components/dashboard/overview"
 import { RecentTransactions } from "@/components/dashboard/recent-transactions"
 import { AddTransaction } from "@/components/transactions/add-transaction"
-import { SpendingChart } from "@/components/analytics/spending-chart"
-import { CategoryPieChart } from "@/components/analytics/category-pie-chart"
+
+// Lazy load analytics charts for better performance
+const SpendingChart = dynamic(() => import("@/components/analytics/spending-chart").then(mod => ({ default: mod.SpendingChart })), {
+  loading: () => <div className="col-span-1 lg:col-span-4 h-[450px] animate-pulse bg-muted rounded-lg" />,
+  ssr: false
+})
+
+const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+  loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+  ssr: false
+})
 
 export default function Home() {
   return (

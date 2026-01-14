@@ -1,0 +1,2627 @@
+[00:00:01.520] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.788] Server  LOG     ✓ Ready in 1288ms
+[00:19:58.618] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:59.063] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
++                           className="min-h-screen bg-background font-sans antialiased inter_b2991b2-module__9mH_6q__..."
+-                           className="min-h-screen bg-background font-sans antialiased inter_b2991b2-module__9mH_6q__..."
+                          >
+                  ...
+
+[00:20:13.891] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:14.803] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
++                           className="min-h-screen bg-background font-sans antialiased inter_b2991b2-module__9mH_6q__..."
+-                           className="min-h-screen bg-background font-sans antialiased inter_b2991b2-module__9mH_6q__..."
+                          >
+                  ...
+
+[00:20:32.277] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:22.227] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:22.841] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/transactions" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
++                           className="min-h-screen bg-background font-sans antialiased inter_b2991b2-module__9mH_6q__..."
+-                           className="min-h-screen bg-background font-sans antialiased inter_b2991b2-module__9mH_6q__..."
+                          >
+                  ...
+
+[00:23:28.131] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:28.570] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/transactions" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
++                           className="min-h-screen bg-background font-sans antialiased inter_b2991b2-module__9mH_6q__..."
+-                           className="min-h-screen bg-background font-sans antialiased inter_b2991b2-module__9mH_6q__..."
+                          >
+                  ...
+
+[00:24:44.538] Browser LOG     Clicking save...
+[00:24:45.536] Browser LOG     Current transactions text: Still empty
+[00:26:35.304] Server  LOG     ✓ Compiled in 1199ms
+[00:26:35.414] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:35.414] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:35.506] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:35.543] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:35.574] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:35.652] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:35.653] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:35.653] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:35.654] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:35.686] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:35.955] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:35.955] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:37.938] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:37.939] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:37.940] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:37.940] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:37.964] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:37.977] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:42.169] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:42.169] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:42.169] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:42.169] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:42.169] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:42.962] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:45.697] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:45.697] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:45.697] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:45.697] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:45.697] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:45.960] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:53.960] Server  ERROR   ⨯ ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+
+
+[00:26:54.105] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:54.106] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:54.106] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:54.107] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:54.107] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:54.107] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:54.883] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:54.883] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:54.884] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:54.884] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:54.884] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:54.991] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:54.991] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:54.992] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:54.992] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:54.992] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:55.451] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:55.451] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:55.451] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:55.451] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:55.451] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:55.992] Browser ERROR   uncaughtError: Error: ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+
+
+[00:26:56.216] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:56.216] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:56.217] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:56.217] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:56.217] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:56.217] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:56.217] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:56.217] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:56.217] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:56.217] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:58.660] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:58.660] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/transactions/page.tsx
+[00:26:58.660] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:26:58.660] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:27:00.391] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:27:00.392] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:27:00.392] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:27:00.392] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:27:00.392] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:27:00.958] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:27:08.170] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:27:08.171] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:27:08.194] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:27:08.194] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:27:08.194] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:27:08.953] Browser ERROR   ./src/components/transactions/add-transaction.tsx:151:1
+Parsing ecmascript source code failed
+  149 |   )
+  150 | }
+> 151 | }
+      | ^
+  152 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/transactions/add-transaction.tsx
+    ./src/app/page.tsx
+[00:27:32.602] Server  LOG     ✓ Compiled in 427ms
+[00:27:39.434] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:37.620] Server  LOG     ✓ Compiled in 242ms
+[00:35:42.572] Server  LOG     ✓ Compiled in 332ms
+[00:35:42.678] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:35:42.701] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:35:42.723] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:35:45.238] Server  LOG     ✓ Compiled in 298ms
+[00:35:45.342] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:35:45.342] Browser ERROR   ./src/components/dashboard/overview.tsx:77:2
+Parsing ecmascript source code failed
+  75 |     </div>
+  76 |   )
+> 77 | }
+     |  ^
+  78 |
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./src/components/dashboard/overview.tsx
+    ./src/app/page.tsx
+[00:35:45.342] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:35:45.342] Browser ERROR   ./src/components/dashboard/overview.tsx:77:2
+Parsing ecmascript source code failed
+  75 |     </div>
+  76 |   )
+> 77 | }
+     |  ^
+  78 |
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./src/components/dashboard/overview.tsx
+    ./src/app/page.tsx
+[00:35:45.358] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:35:45.358] Browser ERROR   ./src/components/dashboard/overview.tsx:77:2
+Parsing ecmascript source code failed
+  75 |     </div>
+  76 |   )
+> 77 | }
+     |  ^
+  78 |
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./src/components/dashboard/overview.tsx
+    ./src/app/page.tsx
+[00:35:46.401] Server  LOG     ✓ Compiled in 206ms
+[00:35:46.510] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:35:46.526] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:35:46.526] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:04.500] Server  LOG     ✓ Compiled in 304ms
+[00:36:04.607] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:04.608] Browser ERROR   ./src/components/dashboard/recent-transactions.tsx:67:4
+Parsing ecmascript source code failed
+  65 |       </Card>
+  66 |     )
+> 67 |   }
+     |    ^
+  68 |
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./src/components/dashboard/recent-transactions.tsx
+    ./src/app/page.tsx
+[00:36:04.608] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:04.608] Browser ERROR   ./src/components/dashboard/recent-transactions.tsx:67:4
+Parsing ecmascript source code failed
+  65 |       </Card>
+  66 |     )
+> 67 |   }
+     |    ^
+  68 |
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./src/components/dashboard/recent-transactions.tsx
+    ./src/app/page.tsx
+[00:36:04.608] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:04.608] Browser ERROR   ./src/components/dashboard/recent-transactions.tsx:67:4
+Parsing ecmascript source code failed
+  65 |       </Card>
+  66 |     )
+> 67 |   }
+     |    ^
+  68 |
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./src/components/dashboard/recent-transactions.tsx
+    ./src/app/page.tsx
+[00:36:05.919] Server  LOG     ✓ Compiled in 184ms
+[00:36:06.028] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:06.028] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:06.029] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:13.238] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:13.239] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:13.239] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:13.345] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:13.345] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:13.345] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:14.403] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:14.403] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:14.403] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:14.403] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:14.403] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:14.403] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:14.403] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:14.403] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:14.403] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:15.073] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:15.075] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:15.076] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:16.037] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:16.037] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:16.037] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:16.037] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:16.037] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:16.037] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:18.186] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:18.186] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:18.187] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:18.647] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:18.648] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:18.648] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:19.051] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:19.052] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:19.052] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:19.317] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:19.317] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:19.317] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:25.675] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:25.675] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:25.675] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:33.243] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:33.244] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:33.244] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:44.482] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:44.482] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:36:44.482] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:37:05.271] Server  ERROR   ⨯ ./src/app/page.tsx:7:23
+Ecmascript file had an error
+   5 |
+   6 | // Lazy load analytics charts for better performance
+>  7 | const SpendingChart = dynamic(() => import("@/components/analytics/spending-chart").then(mod => ({ default: mod.SpendingChart })), {
+     |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  8 |   loading: () => <div className="col-span-1 lg:col-span-4 h-[450px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  9 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 10 | })
+     | ^^^
+  11 |
+  12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+  13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+
+
+./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+
+[00:37:05.465] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:37:05.465] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:37:05.466] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:37:05.466] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:37:05.466] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:37:05.466] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:37:06.116] Browser ERROR   uncaughtError: Error: ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+
+[00:37:06.587] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:37:06.587] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:37:06.588] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:37:06.659] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:37:06.659] Browser ERROR   ./src/app/page.tsx:12:26
+Ecmascript file had an error
+  10 | })
+  11 |
+> 12 | const CategoryPieChart = dynamic(() => import("@/components/analytics/category-pie-chart").then(mod => ({ default: mod.CategoryPieChart })), {
+     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   loading: () => <div className="col-span-1 lg:col-span-3 h-[400px] animate-pulse bg-muted rounded-lg" />,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 14 |   ssr: false
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 15 | })
+     | ^^^
+  16 |
+  17 | export default function Home() {
+  18 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:37:42.072] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:37:42.073] Server  LOG     ✓ Compiled in 387ms

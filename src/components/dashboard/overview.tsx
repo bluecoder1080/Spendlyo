@@ -3,9 +3,9 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { ArrowDownIcon, ArrowUpIcon, IndianRupee, Wallet } from "lucide-react"
 import { useTransactionStore } from "@/store/useTransactionStore"
-import { useEffect, useState } from "react"
+import { useEffect, useState, memo } from "react"
 
-export function Overview() {
+export const Overview = memo(function Overview() {
   // Hydration fix for zustand persist (legacy) - we keep it for safety but now we fetch
   const [mounted, setMounted] = useState(false)
   const fetchTransactions = useTransactionStore((state) => state.fetchTransactions)
@@ -74,4 +74,4 @@ export function Overview() {
       </Card>
     </div>
   )
-}
+})

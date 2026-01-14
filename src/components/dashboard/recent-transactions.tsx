@@ -8,10 +8,10 @@ import {
     CardTitle,
   } from "@/components/ui/card"
 import { useTransactionStore } from "@/store/useTransactionStore"
-import { useEffect, useState } from "react"
+import { useEffect, useState, memo } from "react"
 import { format } from "date-fns"
   
-  export function RecentTransactions() {
+  export const RecentTransactions = memo(function RecentTransactions() {
     // Hydration fix
     const [mounted, setMounted] = useState(false)
     const transactions = useTransactionStore((state) => state.transactions)
@@ -64,4 +64,4 @@ import { format } from "date-fns"
         </CardContent>
       </Card>
     )
-  }
+  })

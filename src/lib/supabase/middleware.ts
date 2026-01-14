@@ -30,9 +30,24 @@ export async function updateSession(request: NextRequest) {
     }
   )
 
-  // Do not run Supabase middleware to force sign-in on public routes
-  // But we do need to refresh the session
-  await supabase.auth.getUser()
+  // Check if user is authenticated
+  const {
+    data: { user },
+  } = await supabase.auth.getUser()
+
+  // If not authenticated and not already on login page, redirect to login
+  if (!user && !request.nextUrl.pathname.startsWith('/login') && !request.nextUrl.pathname.startsWith('/auth')) {
+    const url = request.nextUrl.clone()
+    url.pathname = '/login'
+    return NextResponse.redirect(url)
+  }
+
+  // If authenticated and on login page, redirect to dashboard
+  if (user && request.nextUrl.pathname === '/login') {
+    const url = request.nextUrl.clone()
+    url.pathname = '/'
+    return NextResponse.redirect(url)
+  }
 
   return supabaseResponse
 }
