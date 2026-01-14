@@ -15,7 +15,10 @@ import { format } from "date-fns"
     // Hydration fix
     const [mounted, setMounted] = useState(false)
     const transactions = useTransactionStore((state) => state.transactions)
-
+    // const fetchTransactions = useTransactionStore((state) => state.fetchTransactions) // Already fetched in Overview? Better to fetch here too or rely on store dedup/SWR? Zustand is global.
+    // We assume Overview mounts first or simultaneously. Fetching twice is fine for now, or just let Overview handle it. 
+    // Actually, `fetchTransactions` in Overview might be enough.
+    
     useEffect(() => {
       setMounted(true)
     }, [])

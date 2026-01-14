@@ -6,15 +6,17 @@ import { useTransactionStore } from "@/store/useTransactionStore"
 import { useEffect, useState } from "react"
 
 export function Overview() {
-  // Hydration fix for zustand persist
+  // Hydration fix for zustand persist (legacy) - we keep it for safety but now we fetch
   const [mounted, setMounted] = useState(false)
+  const fetchTransactions = useTransactionStore((state) => state.fetchTransactions)
   const totalBalance = useTransactionStore((state) => state.getTotalBalance())
   const totalIncome = useTransactionStore((state) => state.getTotalIncome())
   const totalExpense = useTransactionStore((state) => state.getTotalExpense())
 
   useEffect(() => {
     setMounted(true)
-  }, [])
+    fetchTransactions() // Fetch on mount
+  }, [fetchTransactions])
 
   if (!mounted) return null
 

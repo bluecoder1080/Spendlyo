@@ -1,7 +1,0 @@
-1:"$Sreact.fragment"
-2:I[15398,["/_next/static/chunks/e1972068c15903d6.js","/_next/static/chunks/1edd0085394e65b4.js","/_next/static/chunks/e7401f9f74cb5b34.js","/_next/static/chunks/80d8f2dd0f230390.js"],"AddTransaction"]
-3:I[20697,["/_next/static/chunks/e1972068c15903d6.js","/_next/static/chunks/1edd0085394e65b4.js","/_next/static/chunks/e7401f9f74cb5b34.js","/_next/static/chunks/80d8f2dd0f230390.js"],"TransactionList"]
-4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-0:{"buildId":"E_gh1e6fstJhqiwJz7pcw","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex flex-col space-y-8","children":[["$","div",null,{"className":"flex items-center justify-between space-y-2","children":[["$","div",null,{"children":[["$","h2",null,{"className":"text-3xl font-bold tracking-tight","children":"Transactions"}],["$","p",null,{"className":"text-muted-foreground","children":"Manage your transaction history here."}]]}],["$","div",null,{"className":"flex items-center space-x-2","children":["$","$L2",null,{}]}]]}],["$","$L3",null,{}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/e7401f9f74cb5b34.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/80d8f2dd0f230390.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
-6:null

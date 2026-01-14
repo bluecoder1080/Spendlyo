@@ -9,6 +9,7 @@ import { useTheme } from "next-themes"
 
 export function Header() {
   const { setTheme, theme } = useTheme()
+  const pathname = usePathname()
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -24,8 +25,10 @@ export function Header() {
             <Link
               href="/"
               className={cn(
-                "transition-colors hover:text-foreground/80",
-                "text-foreground"
+                "text-sm font-medium transition-colors hover:text-primary",
+                pathname === "/"
+                  ? "text-primary"
+                  : "text-muted-foreground"
               )}
             >
               Dashboard
@@ -33,11 +36,24 @@ export function Header() {
             <Link
               href="/transactions"
               className={cn(
-                "transition-colors hover:text-foreground/80",
-                "text-foreground/60"
+                "text-sm font-medium transition-colors hover:text-primary",
+                pathname === "/transactions"
+                  ? "text-primary"
+                  : "text-muted-foreground"
               )}
             >
               Transactions
+            </Link>
+            <Link
+              href="/chat"
+              className={cn(
+                "text-sm font-medium transition-colors hover:text-primary",
+                pathname === "/chat"
+                  ? "text-primary"
+                  : "text-muted-foreground"
+              )}
+            >
+              Chat
             </Link>
           </nav>
         </div>
