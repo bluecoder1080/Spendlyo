@@ -3,7 +3,7 @@
 import dynamic from "next/dynamic"
 import { Overview } from "@/components/dashboard/overview"
 import { RecentTransactions } from "@/components/dashboard/recent-transactions"
-import { AddTransaction } from "@/components/transactions/add-transaction"
+import { QuickAddModal } from "@/components/quick-add-modal"
 
 // Lazy load analytics charts for better performance
 const SpendingChart = dynamic(() => import("@/components/analytics/spending-chart").then(mod => ({ default: mod.SpendingChart })), {
@@ -22,7 +22,7 @@ export default function Home() {
       <div className="flex items-center justify-between space-y-2">
         <h2 className="text-3xl font-bold tracking-tight">Dashboard</h2>
         <div className="flex items-center space-x-2">
-          <AddTransaction />
+          <QuickAddModal />
         </div>
       </div>
       <div className="space-y-6">
