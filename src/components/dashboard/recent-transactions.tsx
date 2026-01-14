@@ -7,61 +7,56 @@ import {
     CardHeader,
     CardTitle,
   } from "@/components/ui/card"
-// import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar" // Removed unused
+import { useTransactionStore } from "@/store/useTransactionStore"
+import { useEffect, useState } from "react"
+import { format } from "date-fns"
   
   export function RecentTransactions() {
+    // Hydration fix
+    const [mounted, setMounted] = useState(false)
+    const transactions = useTransactionStore((state) => state.transactions)
+
+    useEffect(() => {
+      setMounted(true)
+    }, [])
+
+    if (!mounted) return null
+
+    const recent = transactions.slice(0, 5)
+
     return (
       <Card className="col-span-1 lg:col-span-3">
         <CardHeader>
           <CardTitle>Recent Transactions</CardTitle>
           <CardDescription>
-            You made 265 transactions this month.
+            You made {transactions.length} transactions in total.
           </CardDescription>
         </CardHeader>
         <CardContent>
           <div className="space-y-8">
-            <div className="flex items-center">
-              <div className="h-9 w-9 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-xs">
-                 NF
-              </div>
-              <div className="ml-4 space-y-1">
-                <p className="text-sm font-medium leading-none">Netflix Subscription</p>
-                <p className="text-sm text-muted-foreground">
-                  Entertainment
-                </p>
-              </div>
-              <div className="ml-auto font-medium text-red-500">-₹649.00</div>
-            </div>
-            <div className="flex items-center">
-               <div className="h-9 w-9 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-xs">
-                 UP
-              </div>
-              <div className="ml-4 space-y-1">
-                <p className="text-sm font-medium leading-none">Uber Ride</p>
-                <p className="text-sm text-muted-foreground">Travel</p>
-              </div>
-              <div className="ml-auto font-medium text-red-500">-₹450.00</div>
-            </div>
-            <div className="flex items-center">
-              <div className="h-9 w-9 rounded-full bg-green-500/10 flex items-center justify-center text-green-500 font-bold text-xs">
-                 SL
-              </div>
-              <div className="ml-4 space-y-1">
-                <p className="text-sm font-medium leading-none">Salary Credit</p>
-                <p className="text-sm text-muted-foreground">Income</p>
-              </div>
-              <div className="ml-auto font-medium text-green-500">+₹1,20,000.00</div>
-            </div>
-             <div className="flex items-center">
-                <div className="h-9 w-9 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-xs">
-                 AM
-              </div>
-              <div className="ml-4 space-y-1">
-                <p className="text-sm font-medium leading-none">Amazon Purchase</p>
-                <p className="text-sm text-muted-foreground">Shopping</p>
-              </div>
-              <div className="ml-auto font-medium text-red-500">-₹2,100.00</div>
-            </div>
+            {recent.length === 0 && (
+                <p className="text-sm text-muted-foreground text-center py-4">No transactions yet.</p>
+            )}
+            {recent.map((transaction) => (
+                <div key={transaction.id} className="flex items-center">
+                    <div className={`h-9 w-9 rounded-full flex items-center justify-center font-bold text-xs ${
+                        transaction.type === 'income' ? 'bg-green-500/10 text-green-500' : 'bg-primary/10 text-primary'
+                    }`}>
+                        {transaction.category.substring(0, 2).toUpperCase()}
+                    </div>
+                <div className="ml-4 space-y-1">
+                    <p className="text-sm font-medium leading-none">{transaction.description}</p>
+                    <p className="text-sm text-muted-foreground">
+                        {transaction.category} • {format(new Date(transaction.date), 'MMM dd')}
+                    </p>
+                </div>
+                <div className={`ml-auto font-medium ${
+                     transaction.type === 'income' ? 'text-green-500' : 'text-red-500'
+                }`}>
+                    {transaction.type === 'income' ? '+' : '-'}₹{transaction.amount.toLocaleString()}
+                </div>
+                </div>
+            ))}
           </div>
         </CardContent>
       </Card>
