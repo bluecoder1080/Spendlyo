@@ -78,10 +78,10 @@ export function CategoryPieChart() {
               ))}
             </Pie>
             <Tooltip 
-                 formatter={(value) => `₹${value.toLocaleString()}`}
+                 formatter={(value: number | undefined) => `₹${(value || 0).toLocaleString()}`}
                  contentStyle={{ borderRadius: '8px', border: 'none', boxShadow: '0 4px 12px rgba(0,0,0,0.5)' }}
             />
-            <Legend padding={{ top: 20, bottom: 0 }} />
+            <Legend wrapperStyle={{ paddingTop: '20px' }} />
           </PieChart>
         </ResponsiveContainer>
         )}
