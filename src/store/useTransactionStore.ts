@@ -39,11 +39,19 @@ export const useTransactionStore = create<TransactionState>((set, get) => ({
     }
 
     // Map DB expenses to app Transactions
-    const mappedTransactions: Transaction[] = (data || []).map((item: any) => ({
+    interface DBExpense {
+      id: string
+      amount: number
+      category: string
+      note: string | null
+      expense_date: string
+    }
+
+    const mappedTransactions: Transaction[] = (data || []).map((item: DBExpense) => ({
       id: item.id,
       description: item.note || '', // map note to description
       amount: Math.abs(item.amount), // use absolute for display
-      category: item.category,
+      category: item.category as any, // Cast to Category (or string), fix type if strictly verified
       date: item.expense_date, // use expense_date as date
       type: item.amount >= 0 ? 'income' : 'expense' // Inference: positive = income, negative = expense
     }))
