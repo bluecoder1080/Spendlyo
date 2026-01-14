@@ -31201,3 +31201,1249 @@ Import traces:
     ./src/app/page.tsx [Server Component]
 
 https://nextjs.org/docs/messages/module-not-found
+[01:21:36.950] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:36.950] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:36.950] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:36.950] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:36.951] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:36.951] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:36.951] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:36.951] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:36.951] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:36.951] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:52.958] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:52.958] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:52.958] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:52.958] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:52.959] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:08.408] Server  ERROR   ⨯ ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:22:08.957] Browser ERROR   uncaughtError: Error: ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:22:08.968] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:08.968] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:08.969] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:08.970] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:08.970] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:08.970] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:08.970] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:08.971] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:09.246] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:09.246] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:09.962] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:09.963] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:09.963] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:09.963] Browser ERROR   ./src/components/quick-add-modal.tsx:6:1
+Module not found: Can't resolve '@/components/ui/dialog'
+   4 | import { Button } from "@/components/ui/button"
+   5 | import { Input } from "@/components/ui/input"
+>  6 | import {
+     | ^^^^^^^^
+>  7 |   Dialog,
+     | ^^^^^^^^^
+>  8 |   DialogContent,
+     | ^^^^^^^^^
+>  9 |   DialogDescription,
+     | ^^^^^^^^^
+> 10 |   DialogFooter,
+     | ^^^^^^^^^
+> 11 |   DialogHeader,
+     | ^^^^^^^^^
+> 12 |   DialogTitle,
+     | ^^^^^^^^^
+> 13 |   DialogTrigger,
+     | ^^^^^^^^^
+> 14 | } from "@/components/ui/dialog"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import { useTransactionStore } from "@/store/useTransactionStore"
+  16 | import { parseExpenseText } from "@/utils/parseText"
+  17 | import { classifyExpense } from "@/utils/classifyExpense"
+
+Import map: aliased to relative './src/components/ui/dialog' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/quick-add-modal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/quick-add-modal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found

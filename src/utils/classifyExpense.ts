@@ -16,7 +16,7 @@ const CATEGORY_KEYWORDS: Record<Category, string[]> = {
   Other: []
 }
 
-export function categorizByKeywords(text: string): Category | null {
+export function categorizeByKeywords(text: string): Category | null {
   const normalized = text.toLowerCase()
   
   for (const [category, keywords] of Object.entries(CATEGORY_KEYWORDS)) {
