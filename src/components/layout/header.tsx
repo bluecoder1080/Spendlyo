@@ -4,11 +4,19 @@ import Link from "next/link"
 import { usePathname, useRouter } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
-import { Moon, Sun, Wallet, LogOut, User as UserIcon, Menu, X, LayoutDashboard, History as HistoryIcon, MessageSquare, Sparkles } from "lucide-react"
+import { Moon, Sun, Wallet, LogOut, User as UserIcon, Menu, X, LayoutDashboard, History as HistoryIcon, MessageSquare, Sparkles, UserCircle } from "lucide-react"
 import { useTheme } from "next-themes"
 import { createClient } from "@/lib/supabase/client"
 import { useEffect, useState } from "react"
 import { User } from "@supabase/supabase-js"
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
 
 export function Header() {
   const { setTheme, theme } = useTheme()
@@ -85,71 +93,93 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur-xl supports-[backdrop-filter]:bg-background/80 shadow-sm">
-      <div className="container flex h-16 items-center px-4 md:px-6">
-        {/* Logo - Always Visible */}
-        <Link href="/" className="mr-6 md:mr-8 flex items-center space-x-2 group">
-          <div className="relative">
-            <Wallet className="h-7 w-7 text-primary transition-transform group-hover:scale-110" />
-            <Sparkles className="h-3 w-3 text-primary/60 absolute -top-1 -right-1 animate-pulse" />
-          </div>
-          <div className="flex flex-col">
-            <span className="font-bold text-lg bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-              SpendlyoAI
-            </span>
-            <span className="text-[10px] text-muted-foreground -mt-1 hidden sm:block">Smart Finance</span>
-          </div>
-        </Link>
+      <div className="container relative flex h-16 items-center px-4 md:px-6 justify-between">
+        {/* Left: Logo */}
+        <div className="flex items-center">
+          <Link href="/" className="flex items-center space-x-2 group">
+            <div className="relative">
+              <Wallet className="h-7 w-7 text-primary transition-transform group-hover:scale-110" />
+              <Sparkles className="h-3 w-3 text-primary/60 absolute -top-1 -right-1 animate-pulse" />
+            </div>
+            <div className="flex flex-col">
+              <span className="font-bold text-lg bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+                SpendlyoAI
+              </span>
+              <span className="text-[10px] text-muted-foreground -mt-1 hidden sm:block">Smart Finance</span>
+            </div>
+          </Link>
+        </div>
 
-        {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-1 flex-1">
+        {/* Center: Desktop Navigation */}
+        <nav className="hidden md:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center space-x-1">
           <NavLinks />
         </nav>
 
-        {/* Right Side Controls */}
-        <div className="flex flex-1 items-center justify-end space-x-2">
-          <div className="flex items-center gap-2">
+        {/* Right: User Controls */}
+        <div className="flex items-center justify-end">
+          <div className="flex items-center gap-2 md:gap-4">
              {loading ? (
                 <div className="h-9 w-9 animate-pulse rounded-full bg-muted" />
              ) : user ? (
-               <div className="flex items-center gap-2">
-                  <span className="text-sm font-medium hidden sm:inline-block">
-                    {user.user_metadata.full_name?.split(' ')[0] || 'User'}
-                  </span>
-                  {user.user_metadata.avatar_url ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img 
-                      src={user.user_metadata.avatar_url} 
-                      alt="Avatar" 
-                      className="h-9 w-9 rounded-full border-2 border-primary/20 hover:border-primary/40 transition-colors cursor-pointer"
-                    />
-                  ) : (
-                    <div className="h-9 w-9 rounded-full bg-gradient-to-br from-primary/20 to-primary/10 flex items-center justify-center border-2 border-primary/20">
-                       <UserIcon className="h-4 w-4 text-primary" />
-                    </div>
-                  )}
-                  <Button 
-                    variant="ghost" 
-                    size="icon" 
-                    onClick={handleSignOut} 
-                    title="Sign Out"
-                    className="hover:bg-destructive/10 hover:text-destructive"
-                  >
-                    <LogOut className="h-4 w-4" />
-                  </Button>
+               <div className="flex items-center gap-3 pl-0 md:pl-4 md:border-l md:border-border/40">
+                  <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                      <button className="flex items-center gap-3 outline-none group">
+                        <div className="hidden sm:flex flex-col items-end mr-1 group-hover:opacity-80 transition-opacity">
+                          <span className="text-sm font-semibold leading-none">
+                            {user.user_metadata.full_name?.split(' ')[0] || 'Hello!'}
+                          </span>
+                          <span className="text-[10px] text-muted-foreground">
+                            Free Plan
+                          </span>
+                        </div>
+                        
+                        {user.user_metadata.avatar_url ? (
+                          // eslint-disable-next-line @next/next/no-img-element
+                          <img 
+                            src={user.user_metadata.avatar_url} 
+                            alt="Avatar" 
+                            className="h-9 w-9 rounded-full border-2 border-primary/20 group-hover:border-primary/40 transition-all cursor-pointer shadow-sm"
+                          />
+                        ) : (
+                          <div className="h-9 w-9 rounded-full bg-gradient-to-br from-primary/20 to-primary/10 flex items-center justify-center border-2 border-primary/20 shadow-sm group-hover:border-primary/40 transition-all">
+                             <span className="text-xs font-bold text-primary">
+                               {user.user_metadata.full_name?.[0] || 'U'}
+                             </span>
+                          </div>
+                        )}
+                      </button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="end" className="w-56">
+                      <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                      <DropdownMenuSeparator />
+                      <DropdownMenuItem asChild className="cursor-pointer">
+                        <Link href="/profile" className="flex items-center w-full">
+                          <UserCircle className="mr-2 h-4 w-4" />
+                          <span>Profile</span>
+                        </Link>
+                      </DropdownMenuItem>
+                      <DropdownMenuItem onClick={handleSignOut} className="cursor-pointer text-destructive focus:text-destructive">
+                        <LogOut className="mr-2 h-4 w-4" />
+                        <span>Log out</span>
+                      </DropdownMenuItem>
+                    </DropdownMenuContent>
+                  </DropdownMenu>
                </div>
              ) : (
-               <Button asChild variant="default" size="sm" className="shadow-sm">
+               <Button asChild variant="default" size="sm" className="shadow-sm rounded-full px-4">
                  <Link href="/login">Login</Link>
                </Button>
              )}
+            
             <Button
                 variant="ghost"
                 size="icon"
                 onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-                className="hover:bg-accent"
+                className="rounded-full hover:bg-accent h-9 w-9"
             >
                 <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-                <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+                <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100 text-primary" />
                 <span className="sr-only">Toggle theme</span>
             </Button>
 
@@ -157,7 +187,7 @@ export function Header() {
             <Button
               variant="ghost"
               size="icon"
-              className="md:hidden hover:bg-accent"
+              className="md:hidden hover:bg-accent rounded-full"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               {mobileMenuOpen ? (
@@ -173,7 +203,7 @@ export function Header() {
 
       {/* Mobile Navigation Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-t bg-background/95 backdrop-blur-xl">
+        <div className="md:hidden border-t bg-background/95 backdrop-blur-xl animate-in slide-in-from-top-2">
           <nav className="container flex flex-col space-y-1 p-4">
             <NavLinks />
           </nav>

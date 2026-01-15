@@ -106,7 +106,7 @@ export function ChatInterface() {
   ]
 
   return (
-    <div className="flex flex-col h-[calc(100vh-12rem)]">
+    <div className="flex flex-col h-[calc(100dvh-10rem)] md:h-[calc(100vh-10rem)]">
       {/* Header with Description */}
       <Card className="mb-4 p-4 bg-gradient-to-r from-primary/5 to-primary/10 border-primary/20">
         <div className="flex items-start gap-3">
