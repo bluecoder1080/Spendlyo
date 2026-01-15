@@ -1,4 +1,6 @@
 {
+  "/api/categorize/route": "app/api/categorize/route.js",
+  "/api/test-gemini/route": "app/api/test-gemini/route.js",
   "/auth/callback/route": "app/auth/callback/route.js",
   "/chat/page": "app/chat/page.js",
   "/login/page": "app/login/page.js",

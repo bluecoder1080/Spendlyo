@@ -83,6 +83,42 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../src/app/api/categorize-gemini/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/categorize-gemini">> = Specific
+  const handler = {} as typeof import("../../src/app/api/categorize-gemini/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/api/categorize/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/categorize">> = Specific
+  const handler = {} as typeof import("../../src/app/api/categorize/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/api/test-ai/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/test-ai">> = Specific
+  const handler = {} as typeof import("../../src/app/api/test-ai/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/api/test-gemini/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/test-gemini">> = Specific
+  const handler = {} as typeof import("../../src/app/api/test-gemini/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../src/app/auth/callback/route.ts
 {
   type __IsExpected<Specific extends RouteHandlerConfig<"/auth/callback">> = Specific

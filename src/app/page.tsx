@@ -4,6 +4,7 @@ import dynamic from "next/dynamic"
 import { Overview } from "@/components/dashboard/overview"
 import { RecentTransactions } from "@/components/dashboard/recent-transactions"
 import { QuickAddModal } from "@/components/quick-add-modal"
+import { CategoryBreakdown } from "@/components/dashboard/category-breakdown"
 
 // Lazy load analytics charts for better performance
 const SpendingChart = dynamic(() => import("@/components/analytics/spending-chart").then(mod => ({ default: mod.SpendingChart })), {
@@ -32,7 +33,12 @@ export default function Home() {
           <CategoryPieChart />
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-7">
-           <RecentTransactions />
+          <div className="col-span-1 md:col-span-2 lg:col-span-4">
+            <RecentTransactions />
+          </div>
+          <div className="col-span-1 md:col-span-2 lg:col-span-3">
+            <CategoryBreakdown />
+          </div>
         </div>
       </div>
     </div>

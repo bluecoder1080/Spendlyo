@@ -1,52 +1,88 @@
-import { OpenRouter } from "@openrouter/sdk"
 import { NextResponse } from "next/server"
 
-const openrouter = new OpenRouter({
-  apiKey: process.env.OPENROUTER_API_KEY!
-})
-
 export async function POST(req: Request) {
+  let text = ''
+  let amount = 0
+  
   try {
-    const { text, amount } = await req.json()
+    const body = await req.json()
+    text = body.text
+    amount = body.amount
     
-    const completion = await openrouter.chat.completions.create({
-      model: "google/gemini-flash-1.5-8b",
-      messages: [
-        {
-          role: "system",
-          content: `You are an expense categorizer. Given a user's expense description, classify it into one of these categories: Food, Transport, Rent, Shopping, Entertainment, Utilities, Education, Health, Bill, Salary, Investment, Other.
+    console.log('Categorizing expense:', { text, amount })
+    
+    const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${process.env.GROQ_API_KEY}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'llama-3.3-70b-versatile',
+        messages: [
+          {
+            role: 'user',
+            content: `Categorize this expense for an Indian expense tracker.
 
-Return ONLY a JSON object with this exact format:
-{
-  "category": "Food",
-  "note": "brief cleaned description"
-}
+Text: "${text}"
+Amount: ₹${amount}
+
+Valid categories: Food, Groceries, Transport, Travel, Shopping, Clothes, Entertainment, Education, Health, Bill, Salary, Investment, Other
 
 Rules:
-- category must be one of the listed categories
-- note should be a concise, cleaned version of the input
-- DO NOT include any explanation or extra text`
-        },
-        {
-          role: "user",
-          content: `Expense: ${text}\nAmount: ₹${amount}\n\nCategorize this.`
-        }
-      ],
-      response_format: { type: "json_object" }
+- Food items eaten at restaurants (dosa, pizza, biryani, restaurant, cafe, dhaba) = Food
+- Grocery shopping for cooking at home (rice, chawal, atta, dal, vegetables, milk, supermarket, dmart, big bazaar) = Groceries 
+- Clothing items (shirt, jeans, shoes, saree, kurta) = Clothes
+- Trips/hotels/flights/vacation = Travel
+- Daily transport (uber, ola, metro, petrol, bus, auto) = Transport
+- Entertainment (movies, netflix, games) = Entertainment
+- Return ONLY valid JSON: {"category": "Groceries", "note": "brief description"}
+
+Output:`
+          }
+        ],
+        temperature: 0.1,
+      })
     })
     
-    const result = JSON.parse(completion.choices[0]?.message?.content || '{}')
+    const data = await response.json()
+    console.log('Groq response:', data)
+    
+    if (data.error) {
+      console.error('Groq API error:', data.error)
+      return NextResponse.json({
+        category: 'Other',
+        note: text
+      })
+    }
+    
+    let content = data.choices?.[0]?.message?.content || '{}'
+    
+    // Clean markdown if present
+    content = content.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim()
+    
+    const parsed = JSON.parse(content)
+    
+    console.log('🤖 AI result:', parsed)
+    
+    // Validate category - FIXED: Added missing Groceries and Clothes!
+    const validCategories = [
+      'Food', 'Groceries', 'Transport', 'Travel', 'Shopping', 
+      'Clothes', 'Entertainment', 'Education', 'Health', 
+      'Bill', 'Salary', 'Investment', 'Other'
+    ]
+    const category = validCategories.includes(parsed.category) ? parsed.category : 'Other'
     
     return NextResponse.json({
-      category: result.category || 'Other',
-      note: result.note || text
+      category: category,
+      note: parsed.note || text
     })
     
-  } catch (error) {
+  } catch (error: any) {
     console.error('AI categorization error:', error)
-    return NextResponse.json(
-      { category: 'Other', note: text },
-      { status: 500 }
-    )
+    return NextResponse.json({
+      category: 'Other',
+      note: text || 'Expense'
+    })
   }
 }

@@ -1,1 +1,16 @@
-{}
+{
+  "36971": {
+    "id": 36971,
+    "files": [
+      "static/chunks/29734b5b6a23d84f.js",
+      "static/chunks/781ee22267f7a705.js"
+    ]
+  },
+  "24486": {
+    "id": 24486,
+    "files": [
+      "static/chunks/43aa4c67a32fd236.js",
+      "static/chunks/b32d87bce2b4ed36.js"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import {
@@ -16,7 +16,8 @@ import { useTransactionStore } from "@/store/useTransactionStore"
 import { parseExpenseText } from "@/utils/parseText"
 import { classifyExpense } from "@/utils/classifyExpense"
 import { toast } from "sonner"
-import { Loader2, Plus } from "lucide-react"
+import { Loader2, Plus, Mic, MicOff } from "lucide-react"
+import { useSpeechRecognition } from "@/lib/hooks/useSpeechRecognition"
 
 export function QuickAddModal() {
   const [open, setOpen] = useState(false)
@@ -24,6 +25,27 @@ export function QuickAddModal() {
   const [isProcessing, setIsProcessing] = useState(false)
   const [amountPrompt, setAmountPrompt] = useState<number | null>(null)
   const addTransaction = useTransactionStore((state) => state.addTransaction)
+  
+  // Voice recognition
+  const { transcript, isListening, isSupported, error: voiceError, startListening } = useSpeechRecognition()
+
+  // Auto-submit when speech is recognized
+  useEffect(() => {
+    if (transcript && !isListening && open) {
+      setInput(transcript)
+      // Auto-submit after a brief delay to allow user to see the transcript
+      setTimeout(() => {
+        handleSubmit()
+      }, 300)
+    }
+  }, [transcript, isListening, open])
+
+  // Show voice error toast
+  useEffect(() => {
+    if (voiceError) {
+      toast.error(voiceError, { duration: 2000 })
+    }
+  }, [voiceError])
 
   const handleSubmit = async (e?: React.FormEvent) => {
     e?.preventDefault()
@@ -117,14 +139,39 @@ export function QuickAddModal() {
 
         {amountPrompt === null ? (
           <form onSubmit={handleSubmit} className="space-y-4">
-            <Input
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              placeholder="Type like: spent 120 chai / hostel ka kharcha 300"
-              className="text-lg py-6"
-              autoFocus
-              disabled={isProcessing}
-            />
+            <div className="relative">
+              <Input
+                value={input}
+                onChange={(e) => setInput(e.target.value)}
+                placeholder={isListening ? "Listening..." : "Type like: spent 120 chai / hostel ka kharcha 300"}
+                className="text-lg py-6 pr-12"
+                autoFocus={!isListening}
+                disabled={isProcessing || isListening}
+              />
+              {isSupported && (
+                <Button
+                  type="button"
+                  variant="ghost"
+                  size="icon"
+                  className="absolute right-1 top-1/2 -translate-y-1/2 h-8 w-8"
+                  onClick={startListening}
+                  disabled={isProcessing || isListening}
+                  title={isListening ? "Listening..." : "Click to speak"}
+                >
+                  {isListening ? (
+                    <Mic className="h-4 w-4 text-red-500 animate-pulse" />
+                  ) : (
+                    <Mic className="h-4 w-4" />
+                  )}
+                </Button>
+              )}
+            </div>
+            {isListening && (
+              <p className="text-sm text-muted-foreground flex items-center gap-2">
+                <span className="inline-block w-2 h-2 bg-red-500 rounded-full animate-pulse"></span>
+                Listening...
+              </p>
+            )}
             <DialogFooter>
               <Button 
                 type="button" 
