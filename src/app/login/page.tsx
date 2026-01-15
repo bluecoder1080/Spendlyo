@@ -19,7 +19,7 @@ export default function LoginPage() {
     <div className="flex min-h-screen flex-col items-center justify-center space-y-4 bg-background p-8">
       <div className="flex flex-col items-center space-y-2">
         <Wallet className="h-12 w-12 text-primary" />
-        <h1 className="text-2xl font-bold tracking-tight">Welcome to Kharcha</h1>
+        <h1 className="text-2xl font-bold tracking-tight">Welcome to SpendlyoAI</h1>
         <p className="text-muted-foreground">Sign in to track your expenses</p>
       </div>
       <Button onClick={handleLogin} className="w-full max-w-sm" size="lg">

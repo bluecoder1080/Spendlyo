@@ -1,8 +1,6 @@
-[00:00:13.256] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:00:16.037] Server  LOG     ✓ Ready in 15.4s
-[00:00:22.080] Server  LOG     ○ Compiling / ...
-[00:00:36.788] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:37.388] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:01.342] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.520] Server  LOG     ✓ Ready in 1153ms
+[00:00:06.835] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -15,32 +13,110 @@ It can also happen if the client has a browser extension installed which messes 
 %s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en" suppressHydrationWarning={true}>
-                          <body
-+                           className="min-h-screen bg-background font-sans antialiased inter_b2991b2-module__9mH_6q__..."
--                           className="min-h-screen bg-background font-sans antialiased inter_b2991b2-module__9mH_6q__..."
-                          >
+    <SegmentViewNode type="layout" pagePath="layout.tsx">
+      <SegmentTrieNode>
+      <link>
+      <script>
+      <script>
+      <script>
+      <RootLayout>
+        <html lang="en" suppressHydrationWarning={true}>
+          <body className="min-h-scre...">
+            <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true} disableTransitionOnChange={true}>
+              <J attribute="class" defaultTheme="dark" enableSystem={true} disableTransitionOnChange={true}>
+                <V attribute="class" defaultTheme="dark" enableSystem={true} disableTransitionOnChange={true}>
+                  <script>
+                  <Header>
+                    <header className="sticky top...">
+                      <div className="container ...">
+                        <LinkComponent>
+                        <nav>
+                        <div className="flex flex-...">
+                          <div className="flex items...">
+                            <div>
+                            <_c variant="ghost" size="icon" onClick={function onClick} className="hover:bg-a...">
+                              <button
+                                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-s..."
+                                ref={null}
+                                onClick={function onClick}
+-                               fdprocessedid="d53lk4"
+                              >
+                            ...
+                  ...
+                    <ChatInterface>
+                      <div className="flex flex-...">
+                        <_c>
+                        <_c className="flex-1 ove...">
+                          <div ref={null} className="rounded-xl...">
+                            <div>
+                            <div className="p-4 border...">
+                              <p>
+                              <div className="flex flex-...">
+                                <_c variant="outline" size="sm" onClick={function onClick} className="text-xs h-7">
+                                  <button
+                                    className="inline-flex items-center justify-center whitespace-nowrap font-medium t..."
+                                    ref={null}
+                                    onClick={function onClick}
+-                                   fdprocessedid="pl5v"
+                                  >
++                                   How can I reduce my spending?
+                                <_c variant="outline" size="sm" onClick={function onClick} className="text-xs h-7">
+                                  <button
+                                    className="inline-flex items-center justify-center whitespace-nowrap font-medium t..."
+                                    ref={null}
+                                    onClick={function onClick}
+-                                   fdprocessedid="01lujf"
+                                  >
++                                   {"What's my biggest expense category?"}
+                                <_c variant="outline" size="sm" onClick={function onClick} className="text-xs h-7">
+                                  <button
+                                    className="inline-flex items-center justify-center whitespace-nowrap font-medium t..."
+                                    ref={null}
+                                    onClick={function onClick}
+-                                   fdprocessedid="qxuvc"
+                                  >
++                                   Am I saving enough money?
+                                <_c variant="outline" size="sm" onClick={function onClick} className="text-xs h-7">
+                                  <button
+                                    className="inline-flex items-center justify-center whitespace-nowrap font-medium t..."
+                                    ref={null}
+                                    onClick={function onClick}
+-                                   fdprocessedid="7koiku"
+                                  >
++                                   Give me budgeting tips
+                            <div className="p-4 border...">
+                              <div className="flex gap-2">
+                                <_c value="" onChange={function onChange} onKeyPress={function handleKeyPress} ...>
+                                  <input
+                                    type={undefined}
+                                    className="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1..."
+                                    ref={null}
+                                    value=""
+                                    onChange={function onChange}
+                                    onKeyPress={function handleKeyPress}
+                                    placeholder="Ask about your finances..."
+                                    disabled={false}
+-                                   fdprocessedid="cv9t5b"
+                                  >
+                                ...
                   ...
 
-[00:00:57.094] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:58.058] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:16.709] Server  ERROR   AI Chat error: Error: OpenRouter API error: Unauthorized
+[00:00:16.831] Browser ERROR   Chat error: {}
+[00:00:58.712] Browser LOG     🔍 Starting classification for: {"amount":120,"text":"120 on baigaaaannn"}
+[00:00:58.712] Browser LOG     🔎 Checking keywords for: 120 on baigaaaannn
+[00:00:58.712] Browser LOG     ❌ No keyword match found
+[00:00:58.712] Browser LOG     🤖 No keyword match - calling AI...
+[00:00:58.712] Browser LOG     📡 Calling AI API: {"amount":120,"text":"120 on baigaaaannn"}
+[00:00:59.284] Server  LOG     Categorizing expense: {}
+[00:00:59.597] Server  LOG     Groq response: {}
+[00:00:59.599] Server  LOG     🤖 AI result: {}
+[00:00:59.708] Browser LOG     📡 API response status: 200
+[00:00:59.708] Browser LOG     📡 API response data: {"category":"Groceries","note":"purchasing baingan (brinjal)"}
+[00:00:59.708] Browser LOG     🤖 AI result: {"category":"Groceries","note":"purchasing baingan (brinjal)"}
+[00:01:49.006] Server  ERROR   AI Chat error: Error: OpenRouter API error: Unauthorized
+[00:01:49.131] Browser ERROR   Chat error: {}
+[00:01:58.354] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -53,43 +129,71 @@ It can also happen if the client has a browser extension installed which messes 
 %s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en" suppressHydrationWarning={true}>
-                          <body
-+                           className="min-h-screen bg-background font-sans antialiased inter_b2991b2-module__9mH_6q__..."
--                           className="min-h-screen bg-background font-sans antialiased inter_b2991b2-module__9mH_6q__..."
-                          >
-                  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/chat" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="chat/page.tsx">
+              <SegmentTrieNode>
+              <ChatPage>
+                <div className="space-y-4 ...">
+                  <div>
+                  <ChatInterface>
+                    <div className="flex flex-...">
+                      <_c>
+                      <_c className="flex-1 ove...">
+                        <div ref={null} className="rounded-xl...">
+                          <div>
+                          <div className="p-4 border...">
+                            <p>
+                            <div className="flex flex-...">
+                              <_c variant="outline" size="sm" onClick={function onClick} className="text-xs h-7">
+                                <button
+                                  className="inline-flex items-center justify-center whitespace-nowrap font-medium tra..."
+                                  ref={null}
+                                  onClick={function onClick}
+-                                 fdprocessedid="4y01k4"
+                                >
++                                 How can I reduce my spending?
+                              <_c variant="outline" size="sm" onClick={function onClick} className="text-xs h-7">
+                                <button
+                                  className="inline-flex items-center justify-center whitespace-nowrap font-medium tra..."
+                                  ref={null}
+                                  onClick={function onClick}
+-                                 fdprocessedid="qy5c8j"
+                                >
++                                 {"What's my biggest expense category?"}
+                              <_c variant="outline" size="sm" onClick={function onClick} className="text-xs h-7">
+                                <button
+                                  className="inline-flex items-center justify-center whitespace-nowrap font-medium tra..."
+                                  ref={null}
+                                  onClick={function onClick}
+-                                 fdprocessedid="n2bsr"
+                                >
++                                 Am I saving enough money?
+                              <_c variant="outline" size="sm" onClick={function onClick} className="text-xs h-7">
+                                <button
+                                  className="inline-flex items-center justify-center whitespace-nowrap font-medium tra..."
+                                  ref={null}
+                                  onClick={function onClick}
+-                                 fdprocessedid="uow1b"
+                                >
++                                 Give me budgeting tips
+                          <div className="p-4 border...">
+                            <div className="flex gap-2">
+                              <_c value="" onChange={function onChange} onKeyPress={function handleKeyPress} ...>
+                                <input
+                                  type={undefined}
+                                  className="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 t..."
+                                  ref={null}
+                                  value=""
+                                  onChange={function onChange}
+                                  onKeyPress={function handleKeyPress}
+                                  placeholder="Ask about your finances..."
+                                  disabled={false}
+-                                 fdprocessedid="wki4"
+                                >
+                              ...
+            ...
+          ...
 
-[00:01:16.858] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:13.478] Browser LOG     🔍 Starting classification for: {"amount":120,"text":"add 120 picture"}
-[00:04:13.478] Browser LOG     🔎 Checking keywords for: add 120 picture
-[00:04:13.478] Browser LOG     ❌ No keyword match found
-[00:04:13.478] Browser LOG     🤖 No keyword match - calling AI...
-[00:04:13.479] Browser LOG     📡 Calling AI API: {"amount":120,"text":"add 120 picture"}
-[00:04:15.407] Server  LOG     Categorizing expense: {}
-[00:04:15.659] Server  LOG     Groq response: {}
-[00:04:15.661] Server  LOG     🤖 AI result: {}
-[00:04:15.803] Browser LOG     📡 API response status: 200
-[00:04:15.803] Browser LOG     📡 API response data: {"category":"Shopping","note":"picture frame or printing"}
-[00:04:15.803] Browser LOG     🤖 AI result: {"category":"Shopping","note":"picture frame or printing"}
-[00:04:38.270] Browser LOG     🔍 Starting classification for: {"amount":120,"text":"add 120 rupees for chai"}
-[00:04:38.270] Browser LOG     🔎 Checking keywords for: add 120 rupees for chai
-[00:04:38.270] Browser LOG     ✅ Keyword matched! "chai" → Food
-[00:04:38.270] Browser LOG     ✅ Keyword match found: Food

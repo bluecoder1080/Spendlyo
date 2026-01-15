@@ -1,4 +1,4 @@
-import { TransactionList } from "@/components/transactions/transaction-list"
+import { EnhancedTransactionList } from "@/components/transactions/enhanced-transaction-list"
 import { AddTransaction } from "@/components/transactions/add-transaction"
 
 export default function TransactionsPage() {
@@ -15,7 +15,7 @@ export default function TransactionsPage() {
           <AddTransaction />
         </div>
       </div>
-      <TransactionList />
+      <EnhancedTransactionList />
     </div>
   )
 }

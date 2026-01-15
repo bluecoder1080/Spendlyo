@@ -7,6 +7,7 @@ interface TransactionState {
   isLoading: boolean
   fetchTransactions: () => Promise<void>
   addTransaction: (transaction: Omit<Transaction, 'id'>) => Promise<void>
+  updateTransaction: (id: string, updates: Partial<Omit<Transaction, 'id'>>) => Promise<void>
   removeTransaction: (id: string) => Promise<void>
   getTotalBalance: () => number
   getTotalIncome: () => number
@@ -49,11 +50,11 @@ export const useTransactionStore = create<TransactionState>((set, get) => ({
 
     const mappedTransactions: Transaction[] = (data || []).map((item: DBExpense) => ({
       id: item.id,
-      description: item.note || '', // map note to description
-      amount: Math.abs(item.amount), // use absolute for display
-      category: item.category as any, // Cast to Category (or string), fix type if strictly verified
-      date: item.expense_date, // use expense_date as date
-      type: item.amount >= 0 ? 'income' : 'expense' // Inference: positive = income, negative = expense
+      description: item.note || '',
+      amount: Math.abs(item.amount),
+      category: item.category as any,
+      date: item.expense_date,
+      type: item.amount >= 0 ? 'income' : 'expense'
     }))
 
     set({ transactions: mappedTransactions, isLoading: false })
@@ -65,8 +66,6 @@ export const useTransactionStore = create<TransactionState>((set, get) => ({
     
     if (!user) return
 
-    // Prepare for DB
-    // Store 'income' as positive, 'expense' as negative
     const dbAmount = transaction.type === 'income' 
       ? Math.abs(transaction.amount) 
       : -Math.abs(transaction.amount)
@@ -78,7 +77,7 @@ export const useTransactionStore = create<TransactionState>((set, get) => ({
         amount: dbAmount,
         category: transaction.category,
         note: transaction.description,
-        expense_date: transaction.date, // ensure valid date string
+        expense_date: transaction.date,
       })
       .select()
       .single()
@@ -89,10 +88,54 @@ export const useTransactionStore = create<TransactionState>((set, get) => ({
     }
 
     if (data) {
-        // Optimistic update or refetch
-        // We'll just refetch for simplicity and consistency
-        get().fetchTransactions()
+      get().fetchTransactions()
     }
+  },
+
+  updateTransaction: async (id, updates) => {
+    const supabase = createClient()
+    const { data: { user } } = await supabase.auth.getUser()
+    
+    if (!user) return
+
+    // Prepare updates for DB format
+    const dbUpdates: any = {}
+    
+    if (updates.description !== undefined) {
+      dbUpdates.note = updates.description
+    }
+    if (updates.category !== undefined) {
+      dbUpdates.category = updates.category
+    }
+    if (updates.date !== undefined) {
+      dbUpdates.expense_date = updates.date
+    }
+    if (updates.amount !== undefined && updates.type !== undefined) {
+      dbUpdates.amount = updates.type === 'income' 
+        ? Math.abs(updates.amount) 
+        : -Math.abs(updates.amount)
+    } else if (updates.amount !== undefined) {
+      // If only amount changed, need to get current type
+      const currentTx = get().transactions.find(t => t.id === id)
+      if (currentTx) {
+        dbUpdates.amount = currentTx.type === 'income'
+          ? Math.abs(updates.amount)
+          : -Math.abs(updates.amount)
+      }
+    }
+
+    const { error } = await supabase
+      .from('expenses')
+      .update(dbUpdates)
+      .eq('id', id)
+
+    if (error) {
+      console.error('Error updating transaction:', error)
+      throw error
+    }
+
+    // Refetch to get updated data
+    await get().fetchTransactions()
   },
 
   removeTransaction: async (id) => {
@@ -114,8 +157,6 @@ export const useTransactionStore = create<TransactionState>((set, get) => ({
 
   getTotalBalance: () => {
     const { transactions } = get()
-    // Since we store strict types in the store state now (after mapping), we calculate normally
-    // Wait, in fetch we mapped amount to ABSOLUTE. So we need to use type.
     return transactions.reduce(
       (acc, cur) =>
         cur.type === 'income' ? acc + cur.amount : acc - cur.amount,

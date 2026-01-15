@@ -9,8 +9,8 @@ import { Toaster } from "sonner";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "Kharcha - Premium Expense Tracker",
-  description: "Track your expenses with style.",
+  title: "SpendlyoAI - AI-Powered Expense Tracker",
+  description: "Track your expenses with AI-powered categorization.",
 };
 
 export default function RootLayout({

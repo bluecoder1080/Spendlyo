@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
 import {
   Dialog,
   DialogContent,
@@ -12,18 +13,38 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
 import { useTransactionStore } from "@/store/useTransactionStore"
 import { parseExpenseText } from "@/utils/parseText"
 import { classifyExpense } from "@/utils/classifyExpense"
 import { toast } from "sonner"
-import { Loader2, Plus, Mic, MicOff } from "lucide-react"
+import { Loader2, Plus, Mic, Edit3, Sparkles } from "lucide-react"
 import { useSpeechRecognition } from "@/lib/hooks/useSpeechRecognition"
+import { Category, TransactionType } from "@/lib/types"
 
 export function QuickAddModal() {
   const [open, setOpen] = useState(false)
+  const [mode, setMode] = useState<'smart' | 'manual'>('smart')
+  
+  // Smart mode state
   const [input, setInput] = useState("")
-  const [isProcessing, setIsProcessing] = useState(false)
   const [amountPrompt, setAmountPrompt] = useState<number | null>(null)
+  
+  // Manual mode state
+  const [manualAmount, setManualAmount] = useState("")
+  const [manualDescription, setManualDescription] = useState("")
+  const [manualType, setManualType] = useState<TransactionType>("expense")
+  const [manualCategory, setManualCategory] = useState<Category>("Food")
+  
+  const [isProcessing, setIsProcessing] = useState(false)
   const addTransaction = useTransactionStore((state) => state.addTransaction)
   
   // Voice recognition
@@ -124,7 +145,7 @@ export function QuickAddModal() {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button>
+        <Button className="cursor-pointer">
           <Plus className="mr-2 h-4 w-4" />
           Add Transaction
         </Button>

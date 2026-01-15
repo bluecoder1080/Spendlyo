@@ -4,6 +4,7 @@ import dynamic from "next/dynamic"
 import { Overview } from "@/components/dashboard/overview"
 import { RecentTransactions } from "@/components/dashboard/recent-transactions"
 import { QuickAddModal } from "@/components/quick-add-modal"
+import { QuickAddIncomeModal } from "@/components/quick-add-income-modal"
 import { CategoryBreakdown } from "@/components/dashboard/category-breakdown"
 
 // Lazy load analytics charts for better performance
@@ -23,6 +24,7 @@ export default function Home() {
       <div className="flex items-center justify-between space-y-2">
         <h2 className="text-3xl font-bold tracking-tight">Dashboard</h2>
         <div className="flex items-center space-x-2">
+          <QuickAddIncomeModal />
           <QuickAddModal />
         </div>
       </div>
