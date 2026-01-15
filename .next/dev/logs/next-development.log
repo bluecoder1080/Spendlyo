@@ -1,368 +1,95 @@
-[00:00:01.992] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:00:02.291] Server  LOG     ✓ Ready in 1884ms
-[00:00:26.699] Server  LOG     🧪 Testing Gemini API with model: gemini-2.5-flash
-[00:00:26.702] Server  LOG     API Key: "AIzaSyD49Gi42ZtlhF27..."
-[00:00:26.703] Server  LOG     📝 Test 1: Simple text generation...
-[00:00:28.886] Server  LOG     ✅ Raw response: "```json\n{\"category\": \"Groceries\", \"note\": \"Bought groceries from Big Bazaar\"}\n```"
-[00:00:28.890] Server  LOG     📊 Test 2: Model info...
-[00:01:00.143] Server  LOG     🧪 Testing Gemini API with model: gemini-2.5-flash-lite
-[00:01:00.146] Server  LOG     API Key: "AIzaSyD49Gi42ZtlhF27..."
-[00:01:00.147] Server  LOG     📝 Test 1: Simple text generation...
-[00:01:01.001] Server  LOG     ✅ Raw response: "```json\n{\"category\": \"Groceries\", \"note\": \"Groceries from Big Bazaar\"}\n```"
-[00:01:01.004] Server  LOG     📊 Test 2: Model info...
-[00:01:11.510] Server  LOG     🧪 Testing Gemini API with model: gemini-3-flash
-[00:01:11.511] Server  LOG     API Key: "AIzaSyD49Gi42ZtlhF27..."
-[00:01:11.512] Server  LOG     📝 Test 1: Simple text generation...
-[00:01:12.560] Server  ERROR   ❌ Test failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash:generateContent: [404 Not Found] models/gemini-3-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
-[00:03:02.420] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:38.839] Browser LOG     🔍 Starting classification for: {"amount":500,"text":"spent 500 on dinner with friends"}
-[00:03:38.839] Browser LOG     🔎 Checking keywords for: spent 500 on dinner with friends
-[00:03:38.839] Browser LOG     ✅ Keyword matched! "dinner" → Food
-[00:03:38.839] Browser LOG     ✅ Keyword match found: Food
-[00:04:56.019] Browser LOG     🔍 Starting classification for: {"amount":200,"text":"200 baniyaan"}
-[00:04:56.019] Browser LOG     🔎 Checking keywords for: 200 baniyaan
-[00:04:56.019] Browser LOG     ❌ No keyword match found
-[00:04:56.019] Browser LOG     🤖 No keyword match - calling AI...
-[00:04:56.019] Browser LOG     📡 Calling AI API: {"amount":200,"text":"200 baniyaan"}
-[00:04:56.398] Server  LOG     Categorizing expense: {}
-[00:04:56.659] Server  LOG     Groq response: {}
-[00:04:56.661] Server  LOG     AI result: {}
-[00:04:56.781] Browser LOG     📡 API response status: 200
-[00:04:56.781] Browser LOG     📡 API response data: {"category":"Other","note":"baniyaan purchase"}
-[00:04:56.781] Browser LOG     🤖 AI result: {"category":"Other","note":"baniyaan purchase"}
-[00:05:14.860] Browser LOG     🔍 Starting classification for: {"amount":200,"text":"200 for chawaaal"}
-[00:05:14.860] Browser LOG     🔎 Checking keywords for: 200 for chawaaal
-[00:05:14.860] Browser LOG     ❌ No keyword match found
-[00:05:14.860] Browser LOG     🤖 No keyword match - calling AI...
-[00:05:14.860] Browser LOG     📡 Calling AI API: {"amount":200,"text":"200 for chawaaal"}
-[00:05:15.147] Server  LOG     Categorizing expense: {}
-[00:05:15.476] Server  LOG     Groq response: {}
-[00:05:15.477] Server  LOG     AI result: {}
-[00:05:15.587] Browser LOG     📡 API response status: 200
-[00:05:15.588] Browser LOG     📡 API response data: {"category":"Other","note":"chawaaal (rice) purchase"}
-[00:05:15.588] Browser LOG     🤖 AI result: {"category":"Other","note":"chawaaal (rice) purchase"}
-[00:08:37.788] Browser LOG     🔍 Starting classification for: {"amount":100,"text":"chawaaal (rice) purchase 100"}
-[00:08:37.788] Browser LOG     🔎 Checking keywords for: chawaaal (rice) purchase 100
-[00:08:37.788] Browser LOG     ✅ Keyword matched! "rice" → Food
-[00:08:37.788] Browser LOG     ✅ Keyword match found: Food
-[00:09:11.285] Browser LOG     🔍 Starting classification for: {"amount":100,"text":"100 for daaaal"}
-[00:09:11.285] Browser LOG     🔎 Checking keywords for: 100 for daaaal
-[00:09:11.285] Browser LOG     ❌ No keyword match found
-[00:09:11.285] Browser LOG     🤖 No keyword match - calling AI...
-[00:09:11.285] Browser LOG     📡 Calling AI API: {"amount":100,"text":"100 for daaaal"}
-[00:09:11.839] Server  LOG     Categorizing expense: {}
-[00:09:12.060] Server  LOG     Groq response: {}
-[00:09:12.062] Server  LOG     🤖 AI result: {}
-[00:09:12.187] Browser LOG     📡 API response status: 200
-[00:09:12.187] Browser LOG     📡 API response data: {"category":"Groceries","note":"dal purchase"}
-[00:09:12.187] Browser LOG     🤖 AI result: {"category":"Groceries","note":"dal purchase"}
-[00:09:34.235] Browser LOG     🔍 Starting classification for: {"amount":200,"text":"pencil 200"}
-[00:09:34.236] Browser LOG     🔎 Checking keywords for: pencil 200
-[00:09:34.236] Browser LOG     ✅ Keyword matched! "pen" → Education
-[00:09:34.236] Browser LOG     ✅ Keyword match found: Education
-[00:09:47.646] Browser LOG     🔍 Starting classification for: {"amount":20,"text":"bhindiii 20"}
-[00:09:47.647] Browser LOG     🔎 Checking keywords for: bhindiii 20
-[00:09:47.647] Browser LOG     ✅ Keyword matched! "bhindi" → Food
-[00:09:47.647] Browser LOG     ✅ Keyword match found: Food
-[00:11:25.918] Browser LOG     🔍 Starting classification for: {"amount":100,"text":"lauuukii for 100"}
-[00:11:25.918] Browser LOG     🔎 Checking keywords for: lauuukii for 100
-[00:11:25.918] Browser LOG     ❌ No keyword match found
-[00:11:25.918] Browser LOG     🤖 No keyword match - calling AI...
-[00:11:25.918] Browser LOG     📡 Calling AI API: {"amount":100,"text":"lauuukii for 100"}
-[00:11:27.058] Server  LOG     Categorizing expense: {}
-[00:11:27.288] Server  LOG     Groq response: {}
-[00:11:27.290] Server  LOG     🤖 AI result: {}
-[00:11:27.402] Browser LOG     📡 API response status: 200
-[00:11:27.402] Browser LOG     📡 API response data: {"category":"Groceries","note":"lauki purchase"}
-[00:11:27.402] Browser LOG     🤖 AI result: {"category":"Groceries","note":"lauki purchase"}
-[00:11:52.621] Browser LOG     🔍 Starting classification for: {"amount":200,"text":"sutta 200"}
-[00:11:52.621] Browser LOG     🔎 Checking keywords for: sutta 200
-[00:11:52.621] Browser LOG     ❌ No keyword match found
-[00:11:52.621] Browser LOG     🤖 No keyword match - calling AI...
-[00:11:52.621] Browser LOG     📡 Calling AI API: {"amount":200,"text":"sutta 200"}
-[00:11:53.167] Server  LOG     Categorizing expense: {}
-[00:11:53.390] Server  LOG     Groq response: {}
-[00:11:53.391] Server  LOG     🤖 AI result: {}
-[00:11:53.507] Browser LOG     📡 API response status: 200
-[00:11:53.507] Browser LOG     📡 API response data: {"category":"Food","note":"sutta expense"}
-[00:11:53.507] Browser LOG     🤖 AI result: {"category":"Food","note":"sutta expense"}
-[00:12:06.752] Browser LOG     🔍 Starting classification for: {"amount":100,"text":"100 for chadhhi"}
-[00:12:06.752] Browser LOG     🔎 Checking keywords for: 100 for chadhhi
-[00:12:06.752] Browser LOG     ❌ No keyword match found
-[00:12:06.752] Browser LOG     🤖 No keyword match - calling AI...
-[00:12:06.753] Browser LOG     📡 Calling AI API: {"amount":100,"text":"100 for chadhhi"}
-[00:12:07.250] Server  LOG     Categorizing expense: {}
-[00:12:07.510] Server  LOG     Groq response: {}
-[00:12:07.511] Server  LOG     🤖 AI result: {}
-[00:12:07.626] Browser LOG     📡 API response status: 200
-[00:12:07.626] Browser LOG     📡 API response data: {"category":"Other","note":"Chadhhi, possibly a miscellaneous or donation expense"}
-[00:12:07.626] Browser LOG     🤖 AI result: {"category":"Other","note":"Chadhhi, possibly a miscellaneous or donation expense"}
-[00:12:18.369] Browser LOG     🔍 Starting classification for: {"amount":100,"text":"100 for baniyaaaan"}
-[00:12:18.369] Browser LOG     🔎 Checking keywords for: 100 for baniyaaaan
-[00:12:18.369] Browser LOG     ❌ No keyword match found
-[00:12:18.369] Browser LOG     🤖 No keyword match - calling AI...
-[00:12:18.369] Browser LOG     📡 Calling AI API: {"amount":100,"text":"100 for baniyaaaan"}
-[00:12:18.569] Server  LOG     Categorizing expense: {}
-[00:12:18.907] Server  LOG     Groq response: {}
-[00:12:18.909] Server  LOG     🤖 AI result: {}
-[00:12:19.021] Browser LOG     📡 API response status: 200
-[00:12:19.021] Browser LOG     📡 API response data: {"category":"Clothes","note":"baniyaaan"}
-[00:12:19.021] Browser LOG     🤖 AI result: {"category":"Clothes","note":"baniyaaan"}
-[00:12:39.502] Browser LOG     🔍 Starting classification for: {"amount":100,"text":"100 for chadhhi jo niche pehnte hai"}
-[00:12:39.502] Browser LOG     🔎 Checking keywords for: 100 for chadhhi jo niche pehnte hai
-[00:12:39.502] Browser LOG     ❌ No keyword match found
-[00:12:39.502] Browser LOG     🤖 No keyword match - calling AI...
-[00:12:39.502] Browser LOG     📡 Calling AI API: {"amount":100,"text":"100 for chadhhi jo niche pehnte hai"}
-[00:12:39.822] Server  LOG     Categorizing expense: {}
-[00:12:40.231] Server  LOG     Groq response: {}
-[00:12:40.234] Server  LOG     🤖 AI result: {}
-[00:12:40.352] Browser LOG     📡 API response status: 200
-[00:12:40.352] Browser LOG     📡 API response data: {"category":"Clothes","note":"chadhhi jo niche pehnte hai, likely referring to undergarments"}
-[00:12:40.352] Browser LOG     🤖 AI result: {"category":"Clothes","note":"chadhhi jo niche pehnte hai, likely referring to undergarments"}
-[00:18:21.896] Browser LOG     🔍 Starting classification for: {"amount":100,"text":"100 for moja"}
-[00:18:21.896] Browser LOG     🔎 Checking keywords for: 100 for moja
-[00:18:21.896] Browser LOG     ❌ No keyword match found
-[00:18:21.896] Browser LOG     🤖 No keyword match - calling AI...
-[00:18:21.896] Browser LOG     📡 Calling AI API: {"amount":100,"text":"100 for moja"}
-[00:18:23.399] Server  LOG     Categorizing expense: {}
-[00:18:23.641] Server  LOG     Groq response: {}
-[00:18:23.644] Server  LOG     🤖 AI result: {}
-[00:18:23.763] Browser LOG     📡 API response status: 200
-[00:18:23.763] Browser LOG     📡 API response data: {"category":"Food","note":"moja snack"}
-[00:18:23.763] Browser LOG     🤖 AI result: {"category":"Food","note":"moja snack"}
-[00:19:33.101] Browser LOG     🔍 Starting classification for: {"amount":100,"text":"100 for moja jo niche pehnte hai"}
-[00:19:33.101] Browser LOG     🔎 Checking keywords for: 100 for moja jo niche pehnte hai
-[00:19:33.101] Browser LOG     ❌ No keyword match found
-[00:19:33.101] Browser LOG     🤖 No keyword match - calling AI...
-[00:19:33.101] Browser LOG     📡 Calling AI API: {"amount":100,"text":"100 for moja jo niche pehnte hai"}
-[00:19:33.275] Server  LOG     Categorizing expense: {}
-[00:19:33.495] Server  LOG     Groq response: {}
-[00:19:33.496] Server  LOG     🤖 AI result: {}
-[00:19:33.611] Browser LOG     📡 API response status: 200
-[00:19:33.611] Browser LOG     📡 API response data: {"category":"Clothes","note":"moja jo niche pehnte hai"}
-[00:19:33.611] Browser LOG     🤖 AI result: {"category":"Clothes","note":"moja jo niche pehnte hai"}
-[00:20:17.401] Browser LOG     🔍 Starting classification for: {"amount":100,"text":"100 for sitaphal"}
-[00:20:17.402] Browser LOG     🔎 Checking keywords for: 100 for sitaphal
-[00:20:17.402] Browser LOG     ❌ No keyword match found
-[00:20:17.402] Browser LOG     🤖 No keyword match - calling AI...
-[00:20:17.402] Browser LOG     📡 Calling AI API: {"amount":100,"text":"100 for sitaphal"}
-[00:20:19.022] Server  LOG     Categorizing expense: {}
-[00:20:19.235] Server  LOG     Groq response: {}
-[00:20:19.236] Server  LOG     🤖 AI result: {}
-[00:20:19.350] Browser LOG     📡 API response status: 200
-[00:20:19.350] Browser LOG     📡 API response data: {"category":"Groceries","note":"purchasing sitaphal"}
-[00:20:19.350] Browser LOG     🤖 AI result: {"category":"Groceries","note":"purchasing sitaphal"}
-[00:20:31.469] Browser LOG     🔍 Starting classification for: {"amount":100,"text":"100 for verginmojito"}
-[00:20:31.469] Browser LOG     🔎 Checking keywords for: 100 for verginmojito
-[00:20:31.469] Browser LOG     ❌ No keyword match found
-[00:20:31.469] Browser LOG     🤖 No keyword match - calling AI...
-[00:20:31.469] Browser LOG     📡 Calling AI API: {"amount":100,"text":"100 for verginmojito"}
-[00:20:31.959] Server  LOG     Categorizing expense: {}
-[00:20:32.202] Server  LOG     Groq response: {}
-[00:20:32.203] Server  LOG     🤖 AI result: {}
-[00:20:32.318] Browser LOG     📡 API response status: 200
-[00:20:32.318] Browser LOG     📡 API response data: {"category":"Food","note":"restaurant drink"}
-[00:20:32.318] Browser LOG     🤖 AI result: {"category":"Food","note":"restaurant drink"}
-[00:27:40.767] Browser LOG     🔍 Starting classification for: {"amount":200,"text":"200 for baiigaan ka bhaartaa"}
-[00:27:40.767] Browser LOG     🔎 Checking keywords for: 200 for baiigaan ka bhaartaa
-[00:27:40.767] Browser LOG     ❌ No keyword match found
-[00:27:40.767] Browser LOG     🤖 No keyword match - calling AI...
-[00:27:40.767] Browser LOG     📡 Calling AI API: {"amount":200,"text":"200 for baiigaan ka bhaartaa"}
-[00:27:41.295] Server  LOG     Categorizing expense: {}
-[00:27:41.553] Server  LOG     Groq response: {}
-[00:27:41.554] Server  LOG     🤖 AI result: {}
-[00:27:41.668] Browser LOG     📡 API response status: 200
-[00:27:41.668] Browser LOG     📡 API response data: {"category":"Groceries","note":"baiigaan ka bhaartaa (brinjal price)"}
-[00:27:41.668] Browser LOG     🤖 AI result: {"category":"Groceries","note":"baiigaan ka bhaartaa (brinjal price)"}
-[00:28:06.117] Browser LOG     🔍 Starting classification for: {"amount":200,"text":"200 ka baigaan ka bharta ka sabji khaa liya"}
-[00:28:06.117] Browser LOG     🔎 Checking keywords for: 200 ka baigaan ka bharta ka sabji khaa liya
-[00:28:06.117] Browser LOG     ❌ No keyword match found
-[00:28:06.117] Browser LOG     🤖 No keyword match - calling AI...
-[00:28:06.117] Browser LOG     📡 Calling AI API: {"amount":200,"text":"200 ka baigaan ka bharta ka sabji khaa liya"}
-[00:28:06.289] Server  LOG     Categorizing expense: {}
-[00:28:06.497] Server  LOG     Groq response: {}
-[00:28:06.499] Server  LOG     🤖 AI result: {}
-[00:28:06.617] Browser LOG     📡 API response status: 200
-[00:28:06.617] Browser LOG     📡 API response data: {"category":"Food","note":"baigaan ka bharta"}
-[00:28:06.617] Browser LOG     🤖 AI result: {"category":"Food","note":"baigaan ka bharta"}
-[00:28:33.532] Browser LOG     🔍 Starting classification for: {"amount":100,"text":"100 rupai ka ek restaurant me huio khaa liya"}
-[00:28:33.532] Browser LOG     🔎 Checking keywords for: 100 rupai ka ek restaurant me huio khaa liya
-[00:28:33.532] Browser LOG     ✅ Keyword matched! "restaurant" → Food
-[00:28:33.532] Browser LOG     ✅ Keyword match found: Food
-[00:28:52.687] Browser LOG     🔍 Starting classification for: {"amount":100,"text":"100 ka girlfriend ko gift de diya"}
-[00:28:52.687] Browser LOG     🔎 Checking keywords for: 100 ka girlfriend ko gift de diya
-[00:28:52.687] Browser LOG     ❌ No keyword match found
-[00:28:52.687] Browser LOG     🤖 No keyword match - calling AI...
-[00:28:52.687] Browser LOG     📡 Calling AI API: {"amount":100,"text":"100 ka girlfriend ko gift de diya"}
-[00:28:52.973] Server  LOG     Categorizing expense: {}
-[00:28:53.166] Server  LOG     Groq response: {}
-[00:28:53.167] Server  LOG     🤖 AI result: {}
-[00:28:53.284] Browser LOG     📡 API response status: 200
-[00:28:53.284] Browser LOG     📡 API response data: {"category":"Shopping","note":"Gift for girlfriend"}
-[00:28:53.284] Browser LOG     🤖 AI result: {"category":"Shopping","note":"Gift for girlfriend"}
-[00:30:11.670] Browser LOG     🔍 Starting classification for: {"amount":50,"text":"50 rupay ka kuch khaa liya subah subah"}
-[00:30:11.670] Browser LOG     🔎 Checking keywords for: 50 rupay ka kuch khaa liya subah subah
-[00:30:11.670] Browser LOG     ❌ No keyword match found
-[00:30:11.670] Browser LOG     🤖 No keyword match - calling AI...
-[00:30:11.670] Browser LOG     📡 Calling AI API: {"amount":50,"text":"50 rupay ka kuch khaa liya subah subah"}
-[00:30:11.953] Server  LOG     Categorizing expense: {}
-[00:30:12.160] Server  LOG     Groq response: {}
-[00:30:12.161] Server  LOG     🤖 AI result: {}
-[00:30:12.278] Browser LOG     📡 API response status: 200
-[00:30:12.278] Browser LOG     📡 API response data: {"category":"Food","note":"Morning snack"}
-[00:30:12.278] Browser LOG     🤖 AI result: {"category":"Food","note":"Morning snack"}
-[00:30:34.083] Browser LOG     🔍 Starting classification for: {"amount":50,"text":"50 rupay ka jhulla jhull liya"}
-[00:30:34.083] Browser LOG     🔎 Checking keywords for: 50 rupay ka jhulla jhull liya
-[00:30:34.084] Browser LOG     ❌ No keyword match found
-[00:30:34.084] Browser LOG     🤖 No keyword match - calling AI...
-[00:30:34.084] Browser LOG     📡 Calling AI API: {"amount":50,"text":"50 rupay ka jhulla jhull liya"}
-[00:30:34.460] Server  LOG     Categorizing expense: {}
-[00:30:34.712] Server  LOG     Groq response: {}
-[00:30:34.713] Server  LOG     🤖 AI result: {}
-[00:30:34.828] Browser LOG     📡 API response status: 200
-[00:30:34.828] Browser LOG     📡 API response data: {"category":"Entertainment","note":"jhulla ride"}
-[00:30:34.828] Browser LOG     🤖 AI result: {"category":"Entertainment","note":"jhulla ride"}
-[07:37:30.342] Browser ERROR   {}
-[07:37:40.331] Browser ERROR   {}
-[07:37:48.309] Browser ERROR   {}
-[07:37:54.314] Browser ERROR   {}
-[07:37:54.314] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
-[08:11:27.560] Browser LOG     🔍 Starting classification for: {"amount":200,"text":"200 for baniyaaaan just for testing"}
-[08:11:27.560] Browser LOG     🔎 Checking keywords for: 200 for baniyaaaan just for testing
-[08:11:27.560] Browser LOG     ✅ Keyword matched! "test" → Health
-[08:11:27.561] Browser LOG     ✅ Keyword match found: Health
-[08:11:41.773] Browser LOG     🔍 Starting classification for: {"amount":100,"text":"100 for baniyaaan"}
-[08:11:41.773] Browser LOG     🔎 Checking keywords for: 100 for baniyaaan
-[08:11:41.773] Browser LOG     ❌ No keyword match found
-[08:11:41.773] Browser LOG     🤖 No keyword match - calling AI...
-[08:11:41.773] Browser LOG     📡 Calling AI API: {"amount":100,"text":"100 for baniyaaan"}
-[08:11:42.375] Server  LOG     Categorizing expense: {}
-[08:11:42.894] Server  LOG     Groq response: {}
-[08:11:42.896] Server  LOG     🤖 AI result: {}
-[08:11:43.018] Browser LOG     📡 API response status: 200
-[08:11:43.018] Browser LOG     📡 API response data: {"category":"Clothes","note":"baniyaaan purchase"}
-[08:11:43.018] Browser LOG     🤖 AI result: {"category":"Clothes","note":"baniyaaan purchase"}
-[08:20:20.575] Browser LOG     🔍 Starting classification for: {"amount":100,"text":"100 for ghumne chala gya tha"}
-[08:20:20.575] Browser LOG     🔎 Checking keywords for: 100 for ghumne chala gya tha
-[08:20:20.575] Browser LOG     ❌ No keyword match found
-[08:20:20.575] Browser LOG     🤖 No keyword match - calling AI...
-[08:20:20.575] Browser LOG     📡 Calling AI API: {"amount":100,"text":"100 for ghumne chala gya tha"}
-[08:20:30.534] Server  ERROR   Error: fetch failed
-    at context.fetch (E:\Kharcha\node_modules\next\dist\server\web\sandbox\context.js:321:60)
-    at E:\Kharcha\.next\dev\server\edge\chunks\node_modules_@supabase_auth-js_dist_module_33c852e9._.js:577:23
-    at _handleRequest (E:\Kharcha\.next\dev\server\edge\chunks\node_modules_@supabase_auth-js_dist_module_33c852e9._.js:931:24)
-    at _request (E:\Kharcha\.next\dev\server\edge\chunks\node_modules_@supabase_auth-js_dist_module_33c852e9._.js:918:24)
-    at E:\Kharcha\.next\dev\server\edge\chunks\node_modules_@supabase_auth-js_dist_module_33c852e9._.js:4156:225
-    at SupabaseAuthClient._useSession (E:\Kharcha\.next\dev\server\edge\chunks\node_modules_@supabase_auth-js_dist_module_33c852e9._.js:4025:26)
-    at async SupabaseAuthClient._getUser (E:\Kharcha\.next\dev\server\edge\chunks\node_modules_@supabase_auth-js_dist_module_33c852e9._.js:4141:20)
-    at async E:\Kharcha\.next\dev\server\edge\chunks\node_modules_@supabase_auth-js_dist_module_33c852e9._.js:4125:20
-    at async E:\Kharcha\.next\dev\server\edge\chunks\node_modules_@supabase_auth-js_dist_module_33c852e9._.js:3973:28 {
-  
-}
-[08:20:40.640] Server  ERROR   Error: fetch failed
-    at context.fetch (E:\Kharcha\node_modules\next\dist\server\web\sandbox\context.js:321:60)
-    at E:\Kharcha\.next\dev\server\edge\chunks\node_modules_@supabase_auth-js_dist_module_33c852e9._.js:577:23
-    at _handleRequest (E:\Kharcha\.next\dev\server\edge\chunks\node_modules_@supabase_auth-js_dist_module_33c852e9._.js:931:24)
-    at _request (E:\Kharcha\.next\dev\server\edge\chunks\node_modules_@supabase_auth-js_dist_module_33c852e9._.js:918:24)
-    at E:\Kharcha\.next\dev\server\edge\chunks\node_modules_@supabase_auth-js_dist_module_33c852e9._.js:4156:225
-    at SupabaseAuthClient._useSession (E:\Kharcha\.next\dev\server\edge\chunks\node_modules_@supabase_auth-js_dist_module_33c852e9._.js:4025:26)
-    at async SupabaseAuthClient._getUser (E:\Kharcha\.next\dev\server\edge\chunks\node_modules_@supabase_auth-js_dist_module_33c852e9._.js:4141:20)
-    at async E:\Kharcha\.next\dev\server\edge\chunks\node_modules_@supabase_auth-js_dist_module_33c852e9._.js:4125:20
-    at async E:\Kharcha\.next\dev\server\edge\chunks\node_modules_@supabase_auth-js_dist_module_33c852e9._.js:3973:28 {
-  
-}
-[08:20:41.192] Browser LOG     📡 API response status: 200
-[08:20:41.192] Browser ERROR   ❌ AI categorization error: {}
-[08:20:41.192] Browser LOG     🤖 AI result: {"category":"Other","note":"100 for ghumne chala gya tha"}
-[08:21:28.276] Browser LOG     🔍 Starting classification for: {"amount":100,"text":"100 for bharta khaa liya"}
-[08:21:28.276] Browser LOG     🔎 Checking keywords for: 100 for bharta khaa liya
-[08:21:28.276] Browser LOG     ❌ No keyword match found
-[08:21:28.276] Browser LOG     🤖 No keyword match - calling AI...
-[08:21:28.276] Browser LOG     📡 Calling AI API: {"amount":100,"text":"100 for bharta khaa liya"}
-[08:21:28.786] Server  LOG     Categorizing expense: {}
-[08:21:29.319] Server  LOG     Groq response: {}
-[08:21:29.320] Server  LOG     🤖 AI result: {}
-[08:21:29.435] Browser LOG     📡 API response status: 200
-[08:21:29.435] Browser LOG     📡 API response data: {"category":"Food","note":"bhartas eaten outside"}
-[08:21:29.435] Browser LOG     🤖 AI result: {"category":"Food","note":"bhartas eaten outside"}
-[09:16:50.550] Browser LOG     🔍 Starting classification for: {"amount":120,"text":"120 rupai ki baigan ki sabji"}
-[09:16:50.550] Browser LOG     🔎 Checking keywords for: 120 rupai ki baigan ki sabji
-[09:16:50.550] Browser LOG     ❌ No keyword match found
-[09:16:50.550] Browser LOG     🤖 No keyword match - calling AI...
-[09:16:50.550] Browser LOG     📡 Calling AI API: {"amount":120,"text":"120 rupai ki baigan ki sabji"}
-[09:16:52.262] Server  LOG     Categorizing expense: {}
-[09:16:52.537] Server  LOG     Groq response: {}
-[09:16:52.540] Server  LOG     🤖 AI result: {}
-[09:16:52.658] Browser LOG     📡 API response status: 200
-[09:16:52.658] Browser LOG     📡 API response data: {"category":"Groceries","note":"Baigan ki sabji"}
-[09:16:52.658] Browser LOG     🤖 AI result: {"category":"Groceries","note":"Baigan ki sabji"}
-[09:38:13.432] Browser LOG     🔍 Starting classification for: {"amount":199,"text":"199 baniyaan"}
-[09:38:13.432] Browser LOG     🔎 Checking keywords for: 199 baniyaan
-[09:38:13.432] Browser LOG     ❌ No keyword match found
-[09:38:13.432] Browser LOG     🤖 No keyword match - calling AI...
-[09:38:13.432] Browser LOG     📡 Calling AI API: {"amount":199,"text":"199 baniyaan"}
-[09:38:16.281] Server  LOG     Categorizing expense: {}
-[09:38:16.762] Server  LOG     Groq response: {}
-[09:38:16.764] Server  LOG     🤖 AI result: {}
-[09:38:16.886] Browser LOG     📡 API response status: 200
-[09:38:16.887] Browser LOG     📡 API response data: {"category":"Clothes","note":"baniyaan purchase"}
-[09:38:16.887] Browser LOG     🤖 AI result: {"category":"Clothes","note":"baniyaan purchase"}
-[09:38:35.156] Browser LOG     🔍 Starting classification for: {"amount":10,"text":"10 rupay ka baigan"}
-[09:38:35.156] Browser LOG     🔎 Checking keywords for: 10 rupay ka baigan
-[09:38:35.156] Browser LOG     ❌ No keyword match found
-[09:38:35.156] Browser LOG     🤖 No keyword match - calling AI...
-[09:38:35.156] Browser LOG     📡 Calling AI API: {"amount":10,"text":"10 rupay ka baigan"}
-[09:38:36.103] Server  LOG     Categorizing expense: {}
-[09:38:36.412] Server  LOG     Groq response: {}
-[09:38:36.414] Server  LOG     🤖 AI result: {}
-[09:38:36.530] Browser LOG     📡 API response status: 200
-[09:38:36.530] Browser LOG     📡 API response data: {"category":"Groceries","note":"purchasing baigan"}
-[09:38:36.530] Browser LOG     🤖 AI result: {"category":"Groceries","note":"purchasing baigan"}
-[09:38:52.324] Browser LOG     🔍 Starting classification for: {"amount":10,"text":"10 rupai ki mithaai khaai"}
-[09:38:52.324] Browser LOG     🔎 Checking keywords for: 10 rupai ki mithaai khaai
-[09:38:52.324] Browser LOG     ❌ No keyword match found
-[09:38:52.324] Browser LOG     🤖 No keyword match - calling AI...
-[09:38:52.324] Browser LOG     📡 Calling AI API: {"amount":10,"text":"10 rupai ki mithaai khaai"}
-[09:38:52.823] Server  LOG     Categorizing expense: {}
-[09:38:53.099] Server  LOG     Groq response: {}
-[09:38:53.101] Server  LOG     🤖 AI result: {}
-[09:38:53.216] Browser LOG     📡 API response status: 200
-[09:38:53.216] Browser LOG     📡 API response data: {"category":"Food","note":"Mithai"}
-[09:38:53.216] Browser LOG     🤖 AI result: {"category":"Food","note":"Mithai"}
-[09:39:14.831] Browser LOG     🔍 Starting classification for: {"amount":10,"text":"10 rupay ka recharge"}
-[09:39:14.831] Browser LOG     🔎 Checking keywords for: 10 rupay ka recharge
-[09:39:14.831] Browser LOG     ✅ Keyword matched! "recharge" → Bill
-[09:39:14.831] Browser LOG     ✅ Keyword match found: Bill
-[09:39:37.446] Browser LOG     🔍 Starting classification for: {"amount":20,"text":"20 ka moja"}
-[09:39:37.446] Browser LOG     🔎 Checking keywords for: 20 ka moja
-[09:39:37.446] Browser LOG     ❌ No keyword match found
-[09:39:37.446] Browser LOG     🤖 No keyword match - calling AI...
-[09:39:37.446] Browser LOG     📡 Calling AI API: {"amount":20,"text":"20 ka moja"}
-[09:39:37.796] Server  LOG     Categorizing expense: {}
-[09:39:38.147] Server  LOG     Groq response: {}
-[09:39:38.149] Server  LOG     🤖 AI result: {}
-[09:39:38.265] Browser LOG     📡 API response status: 200
-[09:39:38.265] Browser LOG     📡 API response data: {"category":"Food","note":"moja snack"}
-[09:39:38.265] Browser LOG     🤖 AI result: {"category":"Food","note":"moja snack"}
-[09:39:52.047] Browser LOG     🔍 Starting classification for: {"amount":20,"text":"20 rupai moja jo niche poehnete hai"}
-[09:39:52.048] Browser LOG     🔎 Checking keywords for: 20 rupai moja jo niche poehnete hai
-[09:39:52.048] Browser LOG     ❌ No keyword match found
-[09:39:52.048] Browser LOG     🤖 No keyword match - calling AI...
-[09:39:52.048] Browser LOG     📡 Calling AI API: {"amount":20,"text":"20 rupai moja jo niche poehnete hai"}
-[09:39:52.562] Server  LOG     Categorizing expense: {}
-[09:39:53.018] Server  LOG     Groq response: {}
-[09:39:53.019] Server  LOG     🤖 AI result: {}
-[09:39:53.131] Browser LOG     📡 API response status: 200
-[09:39:53.131] Browser LOG     📡 API response data: {"category":"Other","note":"Unknown expense"}
-[09:39:53.131] Browser LOG     🤖 AI result: {"category":"Other","note":"Unknown expense"}
-[09:40:13.964] Browser LOG     🔍 Starting classification for: {"amount":20,"text":"20 rs ka condom"}
-[09:40:13.965] Browser LOG     🔎 Checking keywords for: 20 rs ka condom
-[09:40:13.965] Browser LOG     ❌ No keyword match found
-[09:40:13.965] Browser LOG     🤖 No keyword match - calling AI...
-[09:40:13.965] Browser LOG     📡 Calling AI API: {"amount":20,"text":"20 rs ka condom"}
-[09:40:15.194] Server  LOG     Categorizing expense: {}
-[09:40:15.664] Server  LOG     Groq response: {}
-[09:40:15.665] Server  LOG     🤖 AI result: {}
-[09:40:15.780] Browser LOG     📡 API response status: 200
-[09:40:15.780] Browser LOG     📡 API response data: {"category":"Health","note":"Condom purchase"}
-[09:40:15.780] Browser LOG     🤖 AI result: {"category":"Health","note":"Condom purchase"}
+[00:00:13.256] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:16.037] Server  LOG     ✓ Ready in 15.4s
+[00:00:22.080] Server  LOG     ○ Compiling / ...
+[00:00:36.788] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:37.388] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
++                           className="min-h-screen bg-background font-sans antialiased inter_b2991b2-module__9mH_6q__..."
+-                           className="min-h-screen bg-background font-sans antialiased inter_b2991b2-module__9mH_6q__..."
+                          >
+                  ...
+
+[00:00:57.094] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:58.058] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
++                           className="min-h-screen bg-background font-sans antialiased inter_b2991b2-module__9mH_6q__..."
+-                           className="min-h-screen bg-background font-sans antialiased inter_b2991b2-module__9mH_6q__..."
+                          >
+                  ...
+
+[00:01:16.858] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:13.478] Browser LOG     🔍 Starting classification for: {"amount":120,"text":"add 120 picture"}
+[00:04:13.478] Browser LOG     🔎 Checking keywords for: add 120 picture
+[00:04:13.478] Browser LOG     ❌ No keyword match found
+[00:04:13.478] Browser LOG     🤖 No keyword match - calling AI...
+[00:04:13.479] Browser LOG     📡 Calling AI API: {"amount":120,"text":"add 120 picture"}
+[00:04:15.407] Server  LOG     Categorizing expense: {}
+[00:04:15.659] Server  LOG     Groq response: {}
+[00:04:15.661] Server  LOG     🤖 AI result: {}
+[00:04:15.803] Browser LOG     📡 API response status: 200
+[00:04:15.803] Browser LOG     📡 API response data: {"category":"Shopping","note":"picture frame or printing"}
+[00:04:15.803] Browser LOG     🤖 AI result: {"category":"Shopping","note":"picture frame or printing"}
+[00:04:38.270] Browser LOG     🔍 Starting classification for: {"amount":120,"text":"add 120 rupees for chai"}
+[00:04:38.270] Browser LOG     🔎 Checking keywords for: add 120 rupees for chai
+[00:04:38.270] Browser LOG     ✅ Keyword matched! "chai" → Food
+[00:04:38.270] Browser LOG     ✅ Keyword match found: Food

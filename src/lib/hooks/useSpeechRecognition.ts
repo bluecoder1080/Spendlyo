@@ -14,7 +14,7 @@ export function useSpeechRecognition(): SpeechRecognitionResult {
   const [transcript, setTranscript] = useState('')
   const [isListening, setIsListening] = useState(false)
   const [error, setError] = useState<string | null>(null)
-  const recognitionRef = useRef<SpeechRecognition | null>(null)
+  const recognitionRef = useRef<any>(null)
 
   // Check browser support
   const isSupported = typeof window !== 'undefined' && 
@@ -42,7 +42,7 @@ export function useSpeechRecognition(): SpeechRecognitionResult {
       setError(null)
     }
 
-    recognition.onresult = (event: SpeechRecognitionEvent) => {
+    recognition.onresult = (event: any) => {
       const result = event.results[0][0].transcript
       setTranscript(result)
       setIsListening(false)
